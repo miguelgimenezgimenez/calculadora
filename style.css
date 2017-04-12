@@ -2,14 +2,31 @@
   display: flex;
   justify-content: space-between;
   width: 400px;
-  margin: auto;
+  /*margin: auto;*/
 }
 .container {
-  border: solid 1px gray;
+  display: flex;
+  border: 2px solid rgba(122,122, 122, .3);
   margin-top: 60px;
   padding: 40px;
   height: 400px;
 }
 .btn-large {
   width: 400px;
+}
+.boat-type {
+  border: 2px solid rgba(122,122, 122, .3);
+  padding: 20px;
+  width: 147px;
+}
+.inline-content{
+
+
+}
+
+.monthly-revenue{
+  height: 100%;
+  border: 2px solid rgba(122,122, 122, .3);
+  width: 400px;
+  margin-left: 40px;
 }
