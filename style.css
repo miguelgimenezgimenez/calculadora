@@ -1,0 +1,15 @@
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: auto;
+}
+.container {
+  border: solid 1px gray;
+  margin-top: 60px;
+  padding: 40px;
+  height: 400px;
+}
+.btn-large {
+  width: 400px;
+}
