@@ -8,8 +8,8 @@
   display: flex;
   border: 2px solid rgba(122,122, 122, .3);
   margin-top: 60px;
-  padding: 40px;
-  height: 400px;
+  padding: 50px;
+  height: 300px;
 }
 .btn-large {
   width: 400px;
@@ -29,4 +29,6 @@
   border: 2px solid rgba(122,122, 122, .3);
   width: 400px;
   margin-left: 40px;
+  background-color: rgba(122,122, 122, .1);
+  text-align: center;
 }
