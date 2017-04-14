@@ -17,9 +17,17 @@
 
     <div class="container">
         <div class="inline-content">
+
             <div class="dropdown">
-              <div class="boat-type">Sail Boat</div>
-              <div class="boat-type">Power Boat</div>
+
+              <p>
+               <input  class="with-gap" name="group1" type="radio" id="test1" />
+               <label for="test1">Power Boat</label>
+             </p>
+             <p class="sail">
+               <input  class="with-gap" name="group1" type="radio" id="test2" />
+               <label for="test2">Sail Boat</label>
+             </p>
             </div>
             <div class="dropdown">
               <div class="input-field col s12">
@@ -38,9 +46,9 @@
                <option value="1">1</option>
                <option value="2">2</option>
                <option value="3">3</option>
-               <option value="3">4</option>
-               <option value="3">5</option>
-               <option value="3">6</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
              </select>
            </div>
           </div>
@@ -49,7 +57,10 @@
         </div>
         <button type="button" class="waves-effect waves-light btn-large" name="button">CALCULATE</button>
     </div>
-    <div class="monthly-revenue">0$</div>
+    <div class="monthly-revenue">
+      <div class="amount">0$</div>
+      <div class="info">Monthly Revenue</div>
+    </div>
 </div>
 </body>
 </html>

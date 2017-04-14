@@ -23,7 +23,10 @@
 
 
 }
+.sail {
+  margin-right: 60px;
 
+}
 .monthly-revenue{
   height: 100%;
   border: 2px solid rgba(122,122, 122, .3);
@@ -31,4 +34,26 @@
   margin-left: 40px;
   background-color: rgba(122,122, 122, .1);
   text-align: center;
+}
+
+.boat-type{
+  cursor: pointer;
+
+}
+.amount {
+  margin-top: 63px;
+  font-size: 35px;
+}
+.info  {
+  bottom: 0;
+}
+boat-type.focus:active {
+
+  border-color: #35B084;
+
+
+};
+boat-type :active {
+  border-color: #35B084;
+
 }
